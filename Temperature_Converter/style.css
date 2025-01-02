@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+    font-family: "Algerian";
+    background-image: url(Background.png);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(3, 3, 1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  .result {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    height: 1.5em;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Algerian";
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: rgb(12, 198, 240);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Algerian";
+  }
+  
+  button:hover {
+    background-color: rgb(183, 25, 25);
+    color: white;
+    font-family: "Algerian";
+  }
+  
